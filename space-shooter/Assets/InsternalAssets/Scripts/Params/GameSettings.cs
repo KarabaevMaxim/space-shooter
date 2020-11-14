@@ -17,5 +17,11 @@ namespace Karabaev.Params
     public int BulletsPoolsCapacity => _bulletsPoolsCapacity;
 
     public Bullet[] Bullets => _bullets;
+    
+    public GameSettings(int bulletsPoolsCapacity, Bullet[] bullets)
+    {
+      _bulletsPoolsCapacity = bulletsPoolsCapacity;
+      _bullets = bullets;
+    }
   }
 }

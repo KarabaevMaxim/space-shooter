@@ -14,8 +14,9 @@ namespace Karabaev.Ships
     [SerializeField]
     private Transform _spawnPoint = default;
 
-    [SerializeField]
-    private IBulletsProps _bulletsProps;
+    [SerializeReference, SR]
+    // ReSharper disable once FieldCanBeMadeReadOnly.Local
+    private IBulletsProps _bulletsProps = default;
     
     private BulletsPool _pool;
 

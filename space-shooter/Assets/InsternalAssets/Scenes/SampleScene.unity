@@ -274,7 +274,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886309846}
-  m_LocalRotation: {x: 0.24240525, y: -0.000000028913476, z: 0.0000000072242403, w: 0.9701751}
+  m_LocalRotation: {x: 0.24240528, y: 0.000000014456735, z: -0.0000000036121197, w: 0.9701751}
   m_LocalPosition: {x: -3.4695373, y: 23.74, z: -15.472906}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -359,7 +359,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.24240525, y: -0.000000028913476, z: 0.0000000072242403, w: 0.9701751}
+  m_LocalRotation: {x: 0.24240528, y: 0.000000014456735, z: -0.0000000036121197, w: 0.9701751}
   m_LocalPosition: {x: -3.4695373, y: 23.74, z: -15.472906}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -590,6 +590,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2448365666652371185, guid: 04e8bafce17eb4eeea67b523bc93e15f, type: 3}
+      propertyPath: _bulletsProps
+      value: Assembly-CSharp Karabaev.Bullets.Props.BulletsProps
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448365666652371185, guid: 04e8bafce17eb4eeea67b523bc93e15f, type: 3}
+      propertyPath: _bulletsProps._moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5848561269103205632, guid: 04e8bafce17eb4eeea67b523bc93e15f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -664,3 +672,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bulletPrefab: {fileID: 0}
   _spawnPoint: {fileID: 0}
+  _bulletsProps:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }
