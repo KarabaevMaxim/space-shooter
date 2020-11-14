@@ -1,7 +1,8 @@
+using Karabaev.Params;
 using UnityEngine;
 using Zenject;
 
-namespace Karabaev.Params
+namespace Karabaev.Ioc
 {
   [CreateAssetMenu(fileName = "CommonParams", menuName = "Karabaev/CommonParams", order = 0)]
   public class CommonGameSettingsInstaller : ScriptableObjectInstaller<CommonGameSettingsInstaller>
