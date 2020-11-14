@@ -1,0 +1,17 @@
+{
+    "name": "SerializeReference.Editor",
+    "references": [
+        "GUID:07e2ad4517b75444788d387b033765f2"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

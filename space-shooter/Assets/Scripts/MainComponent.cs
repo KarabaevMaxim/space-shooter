@@ -35,6 +35,12 @@ namespace Karabaev
       
       if (animator)
         list.Add(animator);
+      
+      // ReSharper disable once LocalVariableHidesMember
+      var rigidbody = GetComponent(typeof(Rigidbody));
+      
+      if (rigidbody)
+        list.Add(rigidbody);
     }
 
   }
