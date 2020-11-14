@@ -1,10 +1,12 @@
+using Karabaev.Bullets;
+using Karabaev.Bullets.LifeCycleManagement;
 using Karabaev.Bullets.Props;
 using UnityEngine;
 using Zenject;
 
-namespace Karabaev.Bullets.LifeCycleManagement
+namespace Karabaev.Ships
 {
-  public class BulletsSpawner : MonoBehaviour, IBindableComponent
+  public class BulletsSpawner : MonoBehaviour, IBulletsSpawner, IBindableComponent
   {
     [SerializeField]
     private Bullet _bulletPrefab = default;
