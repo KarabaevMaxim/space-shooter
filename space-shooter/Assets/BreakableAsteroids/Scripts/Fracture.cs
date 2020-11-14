@@ -1,15 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Fracture : MonoBehaviour
+namespace Karabaev.BreakableAsteroids.Scripts
 {
-    [Tooltip("\"Fractured\" is the object that this will break into")]
-    public GameObject fractured;
-
-    public void FractureObject()
+    public class Fracture : MonoBehaviour
     {
-        Instantiate(fractured, transform.position, transform.rotation); //Spawn in the broken version
-        Destroy(gameObject); //Destroy the object to stop it getting in the way
+        [Tooltip("\"Fractured\" is the object that this will break into")]
+        public GameObject fractured;
+
+        public void FractureObject()
+        {
+            Instantiate(fractured, transform.position, transform.rotation); //Spawn in the broken version
+            Destroy(gameObject); //Destroy the object to stop it getting in the way
+        }
     }
 }

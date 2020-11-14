@@ -1,7 +1,7 @@
 using UnityEngine;
 using Zenject;
 
-namespace Karabaev.Bullets.LifeCycleManagement
+namespace Karabaev.Gameplay.Bullets.LifeCycleManagement
 {
   public class BulletsFactory : PlaceholderFactory<Object, Bullet>
   {

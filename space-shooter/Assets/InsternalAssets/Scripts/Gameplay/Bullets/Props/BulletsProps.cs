@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Karabaev.Bullets.Props
+namespace Karabaev.Gameplay.Bullets.Props
 {
   [Serializable]
   public struct BulletsProps : IBulletsProps

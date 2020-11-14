@@ -1,6 +1,6 @@
-using Karabaev.Bullets.Props;
+using Karabaev.Gameplay.Bullets.Props;
 
-namespace Karabaev.Bullets
+namespace Karabaev.Gameplay.Bullets
 {
   public interface IBulletBehaviour
   {

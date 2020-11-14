@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Karabaev.Params;
 using UnityEngine;
 
-namespace Karabaev.Bullets.LifeCycleManagement
+namespace Karabaev.Gameplay.Bullets.LifeCycleManagement
 {
   public class BulletsPool
   {

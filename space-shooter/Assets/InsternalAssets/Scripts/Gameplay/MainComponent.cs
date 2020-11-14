@@ -4,7 +4,7 @@ using Karabaev.Infrastructure;
 using UnityEngine;
 using Zenject;
 
-namespace Karabaev
+namespace Karabaev.Gameplay
 {
   [RequireComponent(typeof(GameObjectContext))]
   [RequireComponent(typeof(ZenjectBinding))]

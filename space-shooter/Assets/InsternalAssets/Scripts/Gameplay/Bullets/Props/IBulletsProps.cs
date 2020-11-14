@@ -1,4 +1,4 @@
-namespace Karabaev.Bullets.Props
+namespace Karabaev.Gameplay.Bullets.Props
 {
   public interface IBulletsProps
   {

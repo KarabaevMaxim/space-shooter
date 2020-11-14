@@ -1,10 +1,10 @@
-using Karabaev.Bullets;
-using Karabaev.Bullets.LifeCycleManagement;
-using Karabaev.Bullets.Props;
+using Karabaev.Gameplay.Bullets;
+using Karabaev.Gameplay.Bullets.LifeCycleManagement;
+using Karabaev.Gameplay.Bullets.Props;
 using UnityEngine;
 using Zenject;
 
-namespace Karabaev.Ships
+namespace Karabaev.Gameplay.Ships
 {
   public class BulletsSpawner : MonoBehaviour, IBulletsSpawner, IBindableComponent
   {

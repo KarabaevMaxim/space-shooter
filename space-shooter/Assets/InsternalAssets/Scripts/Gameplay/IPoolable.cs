@@ -1,4 +1,4 @@
-namespace Karabaev
+namespace Karabaev.Gameplay
 {
   public interface IPoolable
   {

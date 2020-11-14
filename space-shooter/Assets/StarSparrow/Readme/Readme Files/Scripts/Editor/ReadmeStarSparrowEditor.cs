@@ -5,6 +5,7 @@ using UnityEditor;
 using System;
 using System.IO;
 using System.Reflection;
+using Karabaev.StarSparrow.Readme.Readme_Files.Scripts;
 
 [CustomEditor(typeof(ReadmeStarSparrow))]
 [InitializeOnLoad]

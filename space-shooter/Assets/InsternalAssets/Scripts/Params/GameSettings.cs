@@ -1,5 +1,5 @@
 using System;
-using Karabaev.Bullets;
+using Karabaev.Gameplay.Bullets;
 using UnityEngine;
 
 namespace Karabaev.Params

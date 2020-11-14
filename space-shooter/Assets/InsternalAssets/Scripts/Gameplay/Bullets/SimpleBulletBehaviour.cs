@@ -1,10 +1,9 @@
-using System;
 using System.Collections;
-using Karabaev.Bullets.Props;
+using Karabaev.Gameplay.Bullets.Props;
 using UnityEngine;
 using Zenject;
 
-namespace Karabaev.Bullets
+namespace Karabaev.Gameplay.Bullets
 {
   /// <summary>
   /// Поведение снаряда, летящего по прямой до столкновения.

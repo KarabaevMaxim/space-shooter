@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Karabaev.Ships
+namespace Karabaev.Gameplay.Ships
 {
   public class Ship : MainComponent
   {

@@ -1,6 +1,6 @@
-using Karabaev.Bullets;
+using Karabaev.Gameplay.Bullets;
 
-namespace Karabaev.Ships
+namespace Karabaev.Gameplay.Ships
 {
   public interface IBulletsSpawner
   {

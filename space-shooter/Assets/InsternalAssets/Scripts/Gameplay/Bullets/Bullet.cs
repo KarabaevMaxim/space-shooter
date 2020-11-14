@@ -1,8 +1,8 @@
-﻿using Karabaev.Bullets.Props;
+﻿using Karabaev.Gameplay.Bullets.Props;
 using UnityEngine;
 using Zenject;
 
-namespace Karabaev.Bullets
+namespace Karabaev.Gameplay.Bullets
 {
   public class Bullet : MainComponent, IPoolable
   {
