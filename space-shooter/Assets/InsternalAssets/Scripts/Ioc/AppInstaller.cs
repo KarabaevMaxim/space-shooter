@@ -11,6 +11,7 @@ namespace Karabaev.Ioc
       UnityEngine.Application.targetFrameRate = 60;
       
       Container.Bind<IStorage<Level>>().To<JsonStorage<Level>>().AsSingle();
+      Container.Bind<EmptyMonoBehaviour>().FromNewComponentOn(gameObject).AsSingle();
     }
   }
 }
