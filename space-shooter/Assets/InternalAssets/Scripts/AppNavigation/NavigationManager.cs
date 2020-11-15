@@ -62,7 +62,7 @@ namespace Karabaev.AppNavigation
         s.SceneName.Equals(sceneName, StringComparison.OrdinalIgnoreCase)).ViewModel.GetType();
     
       _loadingScene = CreateViewModel(vmType, null); // активируем первую сцену
-    
+      
       SceneManager.sceneLoaded += (scene, mode) =>
       {
         _currentScene = _loadingScene;

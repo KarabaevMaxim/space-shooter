@@ -1,4 +1,5 @@
 using UnityEngine;
+using Zenject;
 
 namespace Karabaev.AppNavigation.ViewModels
 {
@@ -7,5 +8,7 @@ namespace Karabaev.AppNavigation.ViewModels
     public SceneViewModel ParentViewModel { get; set; }
     
     public GameObject Root { get; set; }
+    
+    public DiContainer SceneContainer { get; set; }
   }
 }

@@ -37,11 +37,11 @@ namespace Karabaev.AppNavigation.ViewModels
     public override void OnActivated(object context)
     {
       base.OnActivated(context);
-      CreateUI();
       
       // подразумевается, что на каждой сцене будет SceneContext
       var diContext = Object.FindObjectOfType<SceneContext>();
       SceneContainer = diContext.Container;
+      CreateUI();
     }
 
     public override void OnDeactivated()
@@ -129,6 +129,7 @@ namespace Karabaev.AppNavigation.ViewModels
         transform.SetSidesOffsets(0, 0, 0, 0);
         viewModel.Root = transform.gameObject;
         viewModel.ParentViewModel = this;
+        viewModel.SceneContainer = SceneContainer;
         viewModel.Root.SetActive(false);
         viewModel.OnCreated(null);
         screens.Add(viewModel);
