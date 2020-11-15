@@ -13,7 +13,7 @@ namespace Karabaev.AppNavigation.ViewModels.Scenes
   {
     #region Зависимости
 
-    private readonly ILevelsService _levelsService;
+    private ILevelsService _levelsService;
 
     #endregion
 
@@ -23,6 +23,7 @@ namespace Karabaev.AppNavigation.ViewModels.Scenes
     {
       base.OnActivated(context);
       Push<MainMenuHomeScreenViewModel>(null, false);
+      _levelsService = SceneContainer.Resolve<ILevelsService>();
       await _levelsService.InitializeLevelsAsync();
     }
 
@@ -30,7 +31,7 @@ namespace Karabaev.AppNavigation.ViewModels.Scenes
 
     #region Конструкторы
 
-    public MainMenuViewModel() : this(null, null, null, null, null)
+    public MainMenuViewModel() : this(null, null, null, null)
     {
     }
 
@@ -38,10 +39,8 @@ namespace Karabaev.AppNavigation.ViewModels.Scenes
     public MainMenuViewModel(INavigationProps navProps, 
       INavigationManager navigationManager, 
       IViewModelFactory factory, 
-      EmptyMonoBehaviour monoBeh,
-      ILevelsService levelsService) : base(navProps, navigationManager, factory, monoBeh)
+      EmptyMonoBehaviour monoBeh) : base(navProps, navigationManager, factory, monoBeh)
     {
-      _levelsService = levelsService;
     }
 
     #endregion
